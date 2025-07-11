@@ -1,73 +1,45 @@
-﻿body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f0f2f5;
-    margin: 0;
-    padding: 0;
-}
-
-.form-container {
-    max-width: 700px;
-    margin: 40px auto;
+﻿.form-section {
+    background-color: #f9f9f9;
     padding: 30px;
-    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 30px;
 }
 
-h2, h3 {
-    color: #003366;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.section {
-    margin-top: 30px;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-}
-
-.form-row {
-    margin-bottom: 15px;
+/* Etiket + input stili */
+.form-group-custom {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18px;
 }
 
-    .form-row label {
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
+.label-box {
+    background: linear-gradient(to right, #556d1d, #8aac3b);
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
 
 .input-box {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-    max-width: 100%;
+    flex: 1;
 }
 
-.checkbox-group {
-    padding-top: 5px;
-}
-
-.checkbox-list table {
-    width: 100%;
-}
-
-.button-area {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.submit-btn {
-    background-color: #003366;
-    color: white;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-    .submit-btn:hover {
-        background-color: #0055aa;
+    .input-box input {
+        width: 100%;
+        height: 42px;
+        border: none;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #333;
     }
